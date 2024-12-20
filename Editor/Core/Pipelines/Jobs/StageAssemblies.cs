@@ -153,7 +153,7 @@ namespace ThunderKit.Core.Pipelines.Jobs
 #endif
 
 #if UNITY_2020_1_OR_NEWER
-                referencesOptions = ReferencesOptions.None,
+                referencesOptions = ReferencesOptions.UseEngineModules,
 #endif
                 compilerOptions = new ScriptCompilerOptions()
                 {
